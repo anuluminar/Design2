@@ -1,0 +1,55 @@
+.form-container{
+    padding: 20px ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    color: aqua;
+    font-weight: bold;
+    margin-top: 15px;
+}
+form{
+    display: grid;
+    row-gap: 14px;
+}
+label{
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #1a001a;    
+}
+input{
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 0.8em;
+    border-radius: 5px;
+    font-weight: bold;
+    border-color: rgb(125, 123, 123);
+  
+}
+.name-field input, .email-field input{
+    width: 100%;  
+    border-radius:20px;
+    display: flex;
+    flex-direction: column;
+}
+.phn-field input{
+    width: 100%;
+    margin-right: 10px;   
+    border-radius: 20px;
+}
+
+.phn-field{
+    display: flex;
+    justify-content: start;
+}
+
+button{
+    width:100%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: aqua;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
